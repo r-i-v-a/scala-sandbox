@@ -1,3 +1,11 @@
+import scala.io.Source
+
 object Main extends App {
-  println("Edit the hello string 2!")
+	println("Hello world.")
+
+	val filename="src/resources/in.txt"
+
+	for (line <- Source.fromFile(filename).getLines) {
+		println(line)
+	}
 }
