@@ -1,4 +1,3 @@
---> Case cost 4
---> Case cost 1
---> Case cost 7
---> Number of cases 3
+Case #1: 4
+Case #2: 1
+Case #3: 7

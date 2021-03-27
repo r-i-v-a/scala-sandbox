@@ -14,12 +14,10 @@ object Main extends App {
 
 	val cases = readLine().toInt
 
-	for (i <- 0 until cases) {
+	for (i <- 1 to cases) {
 		val caseLen = readLine().toInt
 		val caseList = readLine().split(" ").map(_.toInt)
 		val caseCost = calculateCost(caseList)
-		println(s"--> Case cost ${caseCost}")
+		println(s"Case #${i}: ${caseCost}")
 	}
-
-	println(s"--> Number of cases ${cases}")
 }
